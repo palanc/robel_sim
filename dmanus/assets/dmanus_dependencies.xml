@@ -56,6 +56,7 @@
     <mesh file="../robel_sim/dmanus/meshes/wristbracket1.stl" name="wristbracket1"/>
     <mesh file="../robel_sim/dmanus/meshes/wristbracket2.stl" name="wristbracket2"/>
     <mesh file="../robel_sim/dmanus/meshes/wristmount.stl" name="wristmount"/>
+    <mesh file="../robel_sim/dmanus/meshes/right_angle_wristmount.stl" name="right_angle_wristmount" scale="0.001 0.001 0.001"/>
     <mesh file="../robel_sim/dmanus/meshes/fingertip.stl" name="fingertip"/>
   </asset>
 
