@@ -64,7 +64,7 @@
     <position joint="TF_ADB" name="TF_ADB" class="ADB" ctrlrange="-2.57 .57"/>
     <position joint="TF_MCP" name="TF_MCP" class="MCP"/>
     <position joint="TF_PIP" name="TF_PIP" class="MCP"/>
-    <position joint="TF_DIP" name="TF_DIP" class="PIP"/>
+    <position joint="TF_DIP" name="TF_DIP" class="PIP" ctrlrange="-1.57 2.0"/>
     <position joint="FF_ADB" name="FF_ADB" class="ADB"/>
     <position joint="FF_MCP" name="FF_MCP" class="MCP"/>
     <position joint="FF_PIP" name="FF_PIP" class="PIP"/>

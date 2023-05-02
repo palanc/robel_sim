@@ -47,9 +47,9 @@
                   <geom class="phys_metal" pos="0 0 0.041" size="0.018 0.015 0.024" type="box" mass=".086"/>
 
                   <body name="TF_distal" pos="0 0 0.054">
-                    <joint axis="1 0 0" name="TF_DIP" class="PIP"/>
-                    <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
-                    <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                    <joint axis="1 0 0" name="TF_DIP" class="PIP" range="-1.57 2.0"/>
+                    <geom euler="-3.14 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
+                    <geom euler="-3.14 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
                   </body>
                 </body>
               </body>
