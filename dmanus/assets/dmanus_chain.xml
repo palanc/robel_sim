@@ -21,8 +21,10 @@
           <body name="thumb_finger" pos="0.0343 0.0015 0.027" euler="0 1.92 0">
             <geom euler="1.57 0 1.57" mesh="motor" pos="0 0 0.025"/>
             <body name="TF_metacarpel" euler="0 0.0 0" pos="0 0 0.03475">
+
               <joint axis="0 1 0" name="TF_ADB" class="ADB" range="-2.57 .57"/>
-              <geom euler="-1.57 3.14 -1.57" mesh="knuckle"/>
+	      
+	      <geom euler="-1.57 3.14 -1.57" mesh="knuckle"/>
               <geom euler="1.57 -1.57 0" mesh="motor" pos="0 0 0.037"/>
               <geom class="phys_metal" pos="0 0 0.021" size="0.015 0.021 0.002" type="box" mass=".003"/>
               <geom class="phys_metal" pos="0 0.02 0.01" size="0.015 0.001 0.014" type="box" mass=".001"/>
@@ -47,9 +49,9 @@
                   <geom class="phys_metal" pos="0 0 0.041" size="0.018 0.015 0.024" type="box" mass=".086"/>
 
                   <body name="TF_distal" pos="0 0 0.054">
-                    <joint axis="1 0 0" name="TF_DIP" class="PIP"/>
-                    <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
-                    <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                    <joint axis="1 0 0" name="TF_DIP" class="PIP" range="-1.57 2.0"/>
+                    <geom euler="-3.14 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
+                    <geom euler="-3.14 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
                   </body>
                 </body>
               </body>
