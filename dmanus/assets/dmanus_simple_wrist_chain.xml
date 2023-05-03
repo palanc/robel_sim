@@ -8,7 +8,7 @@
 ====================================================== -©vk©-->
 
   <!-- WRIST BASE ROTATE 1 -->
-  <body euler="0.0 0 0" name="wrist" pos="0 0.0 0.0" childclass="dmanus">
+  <body euler="0 -1.57 0" name="wrist" pos="-0.03 0.0 -0.032" childclass="dmanus">
     <geom euler="1.57 0 1.57" mesh="right_angle_wristmount" pos="0.033 0.0495 -0.063"/>
 
       <!-- include D'Hand begin-->
