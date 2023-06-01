@@ -95,6 +95,11 @@
     <jointvel joint="PF_ADB" name="PF_ADB_jv"/>
     <jointvel joint="PF_MCP" name="PF_MCP_jv"/>
     <jointvel joint="PF_PIP" name="PF_PIP_jv"/>
+
+    <touch site="touch_sensor_tf" name="touch_sensor_tf" user="0 0 2" />
+    <touch site="touch_sensor_ff" name="touch_sensor_ff" user="0 0 2" />
+    <touch site="touch_sensor_pf" name="touch_sensor_pf" user="0 0 2" />
+
   </sensor>
 
 </mujocoinclude>

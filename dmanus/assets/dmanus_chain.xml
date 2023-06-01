@@ -52,6 +52,7 @@
                     <joint axis="1 0 0" name="TF_DIP" class="PIP" range="-1.57 2.0"/>
                     <geom euler="-3.14 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
                     <geom euler="-3.14 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                    <site name="touch_sensor_tf"  type="box" size=".025 .02 .045" rgba="1 0 0 0" euler="-1.37 0 0" pos="0 0.045 0.0" group="1"/>
                   </body>
                 </body>
               </body>
@@ -81,6 +82,7 @@
                   <joint axis="1 0 0" name="FF_PIP" class="PIP"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                  <site name="touch_sensor_ff"  type="box" size=".025 .02 .045" rgba="1 0 0 0" euler="0.2 0 0" pos="0 -0.01 0.045" group="1"/>
                 </body>
               </body>
             </body>
@@ -109,6 +111,7 @@
                   <joint axis="1 0 0" name="PF_PIP" class="PIP"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0"/>
                   <geom euler="-1.57 1.57 0" mesh="fingertip" pos="0 0 0.0" class="phys_metal"/>
+                  <site name="touch_sensor_pf"  type="box" size=".025 .02 .045" rgba="1 0 0 0" euler="0.2 0 0" pos="0 -0.01 0.045" group="1"/>
                 </body>
               </body>
             </body>
