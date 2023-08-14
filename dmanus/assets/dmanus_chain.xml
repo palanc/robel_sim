@@ -13,6 +13,8 @@
           <geom name="Palmleft1" type="mesh" mesh="PalmL1" pos="-0.001 0 0.1032" class="phys_metal"/>
           <geom name="Palmleft2" type="mesh" mesh="PalmL2" pos="-0.001 0 0.1032" class="phys_metal"/>
 
+          <site name="palm_sensor_site" type="sphere" size="0.01" rgba="1 0 0 0" euler="0 0 0" pos="0 0 0" group="1"/>
+
           <!--Plate-->
           <geom name="plate1_mesh" mesh="plate" pos="0 -0.0255 0.1032"/>
           <geom name="plate2_mesh" mesh="plate" pos="0 0.0235 0.1032"/>

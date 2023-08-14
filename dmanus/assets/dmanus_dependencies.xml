@@ -100,6 +100,9 @@
     <touch site="touch_sensor_ff" name="touch_sensor_ff" user="0 0 2" />
     <touch site="touch_sensor_pf" name="touch_sensor_pf" user="0 0 2" />
 
+    <velocimeter site="palm_sensor_site" name="palm_velocimeter" />
+    <accelerometer site="palm_sensor_site" name="palm_accelerometer" />
+
   </sensor>
 
 </mujocoinclude>
